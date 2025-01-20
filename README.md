@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 3. Настройте переменные окружения для базы данных.
 ```env
-DATABASE_URL=postgresql+asyncpg://user:password@localhost/library_db
+DATABASE_URL=postgresql+asyncpg://user:password@localhost/lib_db
 ```
 4. Примените миграции.
 ```bash
